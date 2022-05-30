@@ -1,0 +1,631 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url(./fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url(./fonts/Metropolis-Regular.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1440px;
+    height: 1397px;
+    background: #f3f3f3;
+    position: relative;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+
+.loginbox {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1125px;
+    top: 55px;
+
+    border: 2px solid #393939;
+    border-radius: 1px;
+    cursor: pointer;
+
+    display: flex;
+}
+
+.registerbox {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1240px;
+    top: 55px;
+
+    background: #393939;
+    border-radius: 1px;
+
+    display: flex;
+}
+.logintext {
+    position: absolute;
+    width: 36px;
+    height: 17px;
+    left: 31px;
+    top: 6px;
+
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    z-index: 1;
+
+    color: #393939;
+}
+
+.registertext {
+    position: absolute;
+    width: 55px;
+    height: 17px;
+    left: 26px;
+    top: 6px;
+
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+
+    color: #FFFFFF;
+}
+
+.headerpage {
+    position: flex;
+    width: 1440px;
+    height: 652px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.titlepage1 {
+    position: absolute;
+    width: 683px;
+    height: 60px;
+    left: 379px;
+    top: 217px;
+
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 60px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.titlepage2 {
+    position: absolute;
+    width: 780px;
+    height: 56px;
+    left: 330px;
+    top: 277px;
+
+    font-family: 'Sabon RomanOsF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.border {
+    position: absolute;
+    visibility: hidden;
+    width: 1440px;
+    height: 1392px;
+    left: 0px;
+    top: -13px;
+}
+
+.borderright {
+    position: absolute;
+    width: 100px;
+    height: 1392px;
+    left: 1340px;
+    top: -13px;
+
+    background: #C4C4C4;
+}
+
+.borderleft {
+    position: absolute;
+    width: 100px;
+    height: 1392px;
+    left: 0px;
+    top: -13px;
+
+    background: #C4C4C4;
+}
+
+.bookframe {
+    position: absolute;
+    width: 1440px;
+    height: 345.09px;
+    left: 0px;
+    top: 422px;
+    overflow-x: scroll;
+    overflow: hidden;
+}
+
+.flexbox {
+    position: absolute;
+    width: 1708px;
+    height: 345.09px;
+    left: 0px;
+    top: 0px;
+}
+
+.product1 {
+    position: absolute;
+    width: 504.29px;
+    height: 345.09px;
+    left: 0px;
+    top: 0px;
+}
+
+.book1 {
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 0px;
+    top: 0px;
+
+    background: url(./images/Rectangle\ 3.png);
+}
+
+.book1desc{
+    position: absolute;
+    width: 268.06px;
+    height: 277.31px;
+    left: 236.22px;
+    top: 33.89px;
+
+    background: #FFFFFF;
+}
+
+.addtocartbutton1 {
+    position: absolute;
+    width: 220.82px;
+    height: 39.03px;
+    left: 261.9px;
+    top: 256px;
+}
+
+.button1 {
+    position: absolute;
+    width: 220.82px;
+    height: 39.03px;
+    left: 261.9px;
+    top: 256px;
+
+    background: #393939;
+}
+
+.product2 {
+    position: absolute;
+    width: 504.29px;
+    height: 345.09px;
+    left: 601.86px;
+    top: 0px;
+}
+
+.book2 {
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 0px;
+    top: 0px;
+
+    background: url(./images/Rectangle\ 3\ \(1\).png);
+}
+
+.book2desc {
+    position: absolute;
+    width: 268.06px;
+    height: 277.31px;
+    right: 0px;
+    top: 33.89px;
+
+    background: #FFFFFF;
+}
+
+.product3 {
+    position: absolute;
+    width: 504.29px;
+    height: 345.09px;
+    left: 1203.71px;
+    top: 0px;
+}
+
+.book3 {
+    position: absolute;
+    width: 236.22px;
+    height: 345.09px;
+    left: 0px;
+    top: 0px;
+
+    background: url(./images/Rectangle\ 3\ \(2\).png)
+}
+
+.book3desc {
+    position: absolute;
+    width: 268.06px;
+    height: 277.31px;
+    right: 0px;
+    top: 33.89px;
+
+    background: #FFFFFF;
+}
+
+.booklist1 {
+    position: absolute;
+    width: 200px;
+    height: 417px;
+    left: 100px;
+    top: 927px;
+}
+
+.botbook1 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    bottom: 147px;
+
+    background: url(./images/Rectangle\ 9.png);
+    border-radius: 1px;
+}
+
+
+.botbook2 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    bottom: 147px;
+
+    background: url(./images/Rectangle\ 9\ \(1\).png);
+    border-radius: 1px;
+}
+
+.botbook3 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    bottom: 147px;
+
+    background: url(./images/Rectangle\ 9\ \(2\).png);
+    border-radius: 1px;
+}
+
+.botbook4 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    bottom: 147px;
+
+    background: url(./images/Rectangle\ 9\ \(3\).png);
+    border-radius: 1px;
+}
+
+.botbook5 {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    bottom: 147px;
+
+    background: url(./images/Rectangle\ 9\ \(4\).png);
+    border-radius: 1px;
+}
+
+.vectorgroup1 {
+    position: absolute;
+    width: 512px;
+    height: 679px;
+    left: 0px;
+    top: 0px;
+    
+    mix-blend-mode: multiply;
+    opacity: 0.1;
+    
+    background: url(./images/Group.png)
+}
+
+.vectorgroup2 {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 1002.87px;
+    top: -138px;
+
+    mix-blend-mode: multiply;
+    opacity: 0.1;
+    transform: rotate(189deg);
+
+    background: url(./images/Group.png);
+}
+
+.icon {
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+
+    background: url(./images/Frame.png);
+}
+
+.booktitle {
+    position: absolute;
+    width: 221px;
+    height: 28px;
+    left: 262px;
+    top: 43px;
+                    
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+                    
+                    
+    color: #000000;
+}
+
+.bookauthor {
+    position: absolute;
+    width: 200.9px;
+    height: 14.38px;
+    left: 261.9px;
+    top: 116px;
+                    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    text-align: left;
+                    
+color: #929292;
+}
+
+.booksynopsis {
+    position: absolute;
+    width: 223.9px;
+    height: 43.14px;
+    left: 258.82px;
+    top: 137px;
+                    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 121.5%;
+                    
+    text-align: justify;
+                    
+    color: #000000;
+}
+
+.bookprice {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 254px;
+    top: 200px;
+                    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 25px;
+                    
+    text-align: center;
+                    
+    color: #44B300;
+}
+
+.addtocartbutton {
+    position: absolute;
+    width: 80.11px;
+    height: 19.51px;
+    left: 332.77px;
+    top: 253.27px;
+                        
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+                        
+    text-align: center;
+                        
+    color: #FFFFFF;
+}
+
+.booktitlesmall1 {
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    top: 292px;
+            
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120.5%;
+    text-align: left;
+            
+            
+    color: #000000;
+}
+
+.bookauthorsmall1 {
+    position: absolute;
+    width: 250px;
+    height: 14px;
+    top: 364px;
+            
+            
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+    text-align: left;
+            
+            
+    color: #929292;
+}
+
+.bookpricesmall1 {
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: 1px;
+    top: 394px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+            
+    text-align: center;
+            
+    color: #44B300;
+}
+
+.booklist2 {
+    position: absolute;
+    width: 200px;
+    height: 417px;
+    left: 360px;
+    top: 927px;
+}
+
+.booklist3 {
+    position: absolute;
+    width: 200px;
+    height: 414px;
+    left: 620px;
+    top: 930px;
+}
+
+.booklist4 {
+    width: 200px;
+    height: 414px;
+    left: 880px;
+    top: 930px;
+    position: absolute;
+}
+
+.booklist5 {
+    position: absolute;
+    width: 200px;
+    height: 414px;
+    left: 1140px;
+    top: 930px;
+}
+
+.cart1 {
+    position: absolute;
+    width: 41px;
+    height: 33px;
+    left: 1209px;
+    top: 54.37px;
+
+    background: url(./images/Group\ 10.png);
+}
+
+.profilepicture {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1280px;
+    top: 40px;
+
+    background: url(./images/Ellipse\ 1.png);
+}
+
+nav ul {
+    float: left;
+    position: absolute;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;                
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 60px;
+                    
+    display: block;
+    
+    color: #000000;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
+    width: 210px;
+    right: 0px;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 12px;
+    visibility: hidden;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+}
+
+nav ul li ul li {
+    left: 10px;
+    top: 10px;
+}
+
+.logout1 {
+    padding-top: 20px;
+    padding-left: 4.99px;
+}

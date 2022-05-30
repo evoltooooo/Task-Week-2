@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url(./fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url(./fonts/Metropolis-Regular.otf);
+}
+@font-face {
+    font-family: 'Avenir Bold';
+    src: url(./fonts/Metropolis-Bold.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+
+.container5 {
+    max-width: 1440px;
+    height: 995px;
+    background: #f3f3f3;
+    position: relative;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+
+.profilepicture {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1280px;
+    top: 40px;
+
+    background: url(./images/Ellipse\ 1.png);
+}
+
+.cart1 {
+    position: absolute;
+    width: 41px;
+    height: 33px;
+    left: 1209px;
+    top: 54.37px;
+
+    background: url(./images/Group\ 10.png);
+}
+
+.vectorgroup1 {
+    position: absolute;
+    width: 522px;
+    height: 679px;
+    left: 0px;
+    top: 0px;
+    
+    mix-blend-mode: multiply;
+    opacity: 0.1;
+    
+    background: url(./images/Group.png);
+}
+
+.vectorgroup2 {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 1002.87px;
+    top: -138px;
+
+    mix-blend-mode: multiply;
+    opacity: 0.1;
+    transform: rotate(189deg);
+
+    background: url(./images/Group.png);
+}
+
+.icon {
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+
+    background: url(./images/Frame.png);
+}
+
+nav ul {
+    float: left;
+    position: absolute;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;                
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 60px;
+                    
+    display: block;
+    
+    color: #000000;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
+    width: 210px;
+    right: 0px;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 12px;
+    visibility: hidden;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+}
+
+nav ul li ul li {
+    left: 10px;
+    top: 10px;
+}
+
+.productgroup {
+    position: absolute;
+width: 660px;
+height: 279px;
+left: 195px;
+top: 240px;
+
+}
+
+.line1 {
+    position: absolute;
+    width: 660px;
+    height: 0px;
+    left: 0px;
+    top: 34px;
+
+    border: 1px solid #393939;
+}
+
+.line2 {
+    position: absolute;
+    width: 660px;
+    height: 0px;
+    left: 0px;
+    bottom: 0px;
+
+    border: 1px solid #393939;
+}
+
+.cartbook {
+    position: absolute;
+    width: 130px;
+    height: 175.5px;
+    left: 195px;
+    top: 305px;
+
+    background: url(./images/cartbook.svg);
+    border-radius: 1px;
+}
+
+.trash {
+    position: absolute;
+    width: 18px;
+    height: 20px;
+    left: 835px;
+    top: 300px;
+
+    background: url(./images/trash.svg);
+}
+
+.transactionbox {
+    position: absolute;
+    width: 260px;
+    height: 150px;
+    left: 992px;
+    top: 270px;
+}
+
+.transaction {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 260px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(196, 196, 196, 0.2);
+    border: 2px dashed #000000;
+}
+
+.cashpayment {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 85px;
+    top: 15.5px;
+
+    background: url(./images/cash-payment\ 1.svg);
+}
+
+.paybox {
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    left: 992px;
+    top: 445px;
+
+    background: url(./images/Checkout.svg);
+}
+
+.popupmessage1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+    visibility: hidden ;
+    opacity: 0;
+}
+
+.popupmessage1:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popupmessagecontent1 {
+    position: relative;
+    width: 742px;
+    height: 142px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.mycart {
+    position: absolute;
+    width: 89px;
+    height: 28px;
+    left: 195px;
+    top: 157px;
+    
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.reviewyourorder {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 176px;
+    top: 216px;
+    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.cartbooktitle {
+    position: absolute;
+    width: 201px;
+    height: 21px;
+    left: 345px;
+    top: 286px;
+    
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.cartbookauthor {
+    position: absolute;
+    width: 150px;
+    height: 14px;
+    left: 326px;
+    top: 323px;
+    
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.5%;
+
+    color: #929292;
+}
+
+.cartbookprice {
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 323px;
+    top: 364px;
+    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    
+    color: #44B200;
+}
+
+.attachtransaction {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    left: 1024px;
+    top: 356px;
+    
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.popupmessagetext {
+    position: absolute;
+    left: 35px;
+    top: 14px;
+    width: 669px;
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    
+    color: #469F74;
+}

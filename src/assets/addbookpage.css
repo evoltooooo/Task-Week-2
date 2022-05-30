@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url(./fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url(./fonts/Metropolis-Regular.otf);
+}
+@font-face {
+    font-family: 'Avenir Bold';
+    src: url(./fonts/Metropolis-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+
+.container8 {
+    max-width: 1440px;
+    height: 1071px;
+    background: #f3f3f3;
+    position: relative;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+
+.vectorgroup1 {
+    position: absolute;
+    width: 512px;
+    height: 679px;
+    left: 0px;
+    top: 0px;
+    
+    mix-blend-mode: multiply;
+    opacity: 0.1;
+    
+    background: url(./images/Group.png);
+}
+
+.vectorgroup2 {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 1002.87px;
+    top: -138px;
+
+    mix-blend-mode: multiply;
+    opacity: 0.1;
+    transform: rotate(189deg);
+
+    background: url(./images/Group.png);
+}
+
+.icon {
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+
+    background: url(./images/Frame.png);
+}
+
+.adminprofile {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 50px;
+    height: 49.29px;
+    left: 1240px;
+    top: 46px;
+
+    background: url(./images/adminpp.svg);
+}
+
+input {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 12px;
+}
+
+.titlebox2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 995px;
+    height: 50px;
+    left: 223px;
+    top: 248px;
+
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.publicdatebox2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 995px;
+    height: 50px;
+    left: 223px;
+    top: 329px;
+
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.pagesbox2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 995px;
+    height: 50px;
+    left: 223px;
+    top: 410px;
+
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.isbnbox2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 995px;
+    height: 50px;
+    left: 223px;
+    top: 490px;
+
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.pricebox2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 995px;
+    height: 50px;
+    left: 223px;
+    top: 570px;
+
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.aboutbox2 {
+    position: absolute;
+    width: 968px;
+    height: 207px;
+    left: 223px;
+    top: 645px;
+
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+}
+
+.attachbox2 {
+    position: absolute;
+    width: 218px;
+    height: 50px;
+    left: 223px;
+    top: 892px;
+
+    background: url(./images/attachbook.svg);
+}
+
+.addbookbtn2 {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1068px;
+    top: 953px;
+
+    background: url(./images/Add\ Button.svg);
+}

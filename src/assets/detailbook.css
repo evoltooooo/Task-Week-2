@@ -1,0 +1,418 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url(./fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url(./fonts/Metropolis-Regular.otf);
+}
+@font-face {
+    font-family: 'Avenir Bold';
+    src: url(./fonts/Metropolis-Bold.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+
+.container3 {
+    max-width: 1440px;
+    height: 1397px;
+    background: #f3f3f3;
+    position: relative;
+    margin: 0 auto;
+
+    overflow: hidden;
+}
+
+.cart {
+    position: absolute;
+    width: 35px;
+    height: 32.26px;
+    left: 1209px;
+    top: 54.37px;
+
+    background: url(./images/Vector.png);
+}
+
+.profilepicture {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1280px;
+    top: 40px;
+
+    background: url(./images/Ellipse\ 1.png);
+}
+
+.headerpage {
+    position: flex;
+    width: 1440px;
+    height: 652px;
+    left: 0px;
+    top: 0px;
+
+    background: #f3f3f3;
+}
+
+.vectorgroup1 {
+    position: absolute;
+    width: 522px;
+    height: 679px;
+    left: 0px;
+    top: 0px;
+    
+    mix-blend-mode: multiply;
+    opacity: 0.1;
+    
+    background: url(./images/Group.png);
+}
+
+.vectorgroup2 {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    left: 1002.87px;
+    top: -138px;
+
+    mix-blend-mode: multiply;
+    opacity: 0.1;
+    transform: rotate(189deg);
+
+    background: url(./images/Group.png);
+}
+
+.icon {
+    position: absolute;
+    width: 111px;
+    height: 65px;
+    left: 100px;
+    top: 39px;
+
+    background: url(./images/Frame.png);
+}
+
+.bookcover {
+    position: absolute;
+    width: 400px;
+    height: 577px;
+    left: 262px;
+    top: 142px;
+
+    background: url(./images/Rectangle\ 9cover.png);
+    border-radius: 10px;
+}
+
+.addtocartbutton2{
+    position: absolute;
+    width: 144px;
+    height: 50px;
+    left: 1001px;
+    top: 1292px;
+}
+
+.addtocartbox {
+    position: absolute;
+    width: 144px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+
+    background: #393939;
+    border-radius: 1px;
+}
+
+.smallcart {
+    position: absolute;
+    width: 23.87px;
+    height: 22px;
+    left: 103px;
+    top: 12px;
+
+    background: url(./images/Vectorsmall.png);
+}
+
+.popupmessage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+    visibility: hidden ;
+    opacity: 0;
+}
+
+.popupmessage:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popupmessagecontent {
+    position: relative;
+    width: 742px;
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+nav ul {
+    float: left;
+    position: absolute;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;                
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 60px;
+                    
+    display: block;
+    
+    color: #000000;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
+    width: 210px;
+    right: 0px;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 12px;
+    visibility: hidden;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+}
+
+nav ul li ul li {
+    left: 10px;
+    top: 10px;
+}
+
+.booktitlebig {
+    position: absolute;
+    width: 470px;
+    height: 116px;
+    left: 443px;
+    top: 92px;
+            
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120.5%;
+            
+            
+    color: #000000;
+}
+
+.bookauthorbig {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 443px;
+    top: 216px;
+            
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 101.5%;
+            
+            
+    color: #929292;
+}
+
+.bookpublicationdate {
+    position: absolute;
+    width: 200px;
+    height: 29px;
+    left: 703px;
+    top: 302px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+            
+            
+    color: #000000;
+}
+
+.bookdate {
+    position: absolute;
+    width: 150px;
+    height: 18px;
+    left: 686px;
+    top: 346px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+            
+            
+    color: #929292;
+}
+
+.bookpages {
+    position: absolute;
+    width: 70px;
+    height: 29px;
+    left: 708px;
+    top: 399px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+            
+            
+    color: #000000;
+}
+
+.bookpagestotal {
+    position: absolute;
+    width: 31px;
+    height: 18px;
+    left: 708px;
+    top: 443px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+            
+            
+            color: #929292;
+}
+
+.bookisbn {
+    position: absolute;
+    width: 56px;
+    height: 29px;
+    left: 708px;
+    top: 500px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+            
+            
+            color: #D60000;
+}
+
+.bookisbnnumber {
+    position: absolute;
+    width: 131px;
+    height: 18px;
+    left: 708px;
+    top: 544px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 101.5%;
+            
+            
+    color: #929292;
+}
+
+.bookpricebig {
+    position: absolute;
+    width: 56px;
+    height: 29px;
+    left: 708px;
+    top: 607px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120.5%;
+            
+            
+    color: #000000;
+}
+
+.bookpricetotal {
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 708px;
+    top: 651px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 101.5%;
+            
+            
+    color: #44B200;
+}
+
+.bookaboutthisbook {
+    position: absolute;
+    width: 262px;
+    height: 43px;
+    left: 257px;
+    top: 768px;
+            
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120.5%;
+            
+            
+    color: #000000;
+}
+
+.bookaboutthisbookdetail {
+    position: absolute;
+    width: 905px;
+    height: 397px;
+    left: 262px;
+    top: 816px;
+            
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+            
+    text-align: justify;
+            
+    color: #929292;
+}
